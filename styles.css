@@ -32,6 +32,8 @@ a:active {
     color: #e5e7eb;
 }
 
+/* Section 1/5 styles */
+
 .section1 {
     background-color: #1f2937;
     color: #f9faf8;
@@ -124,6 +126,8 @@ a:active {
     height: auto;
 }
 
+/* Section 3/5 styles */
+
 .section3 {
     background-color: #e5e7eb;
     padding: 100px 150px;
@@ -135,7 +139,7 @@ a:active {
 .qoute {
     font-size: 36px;
     font-style: italic;
-    font-weight: 100px;
+    font-weight: lighter;
 }
 
 .name {
@@ -144,8 +148,30 @@ a:active {
     justify-content: flex-end;
 }
 
+/* Section 4/5 styles */
+
 .section4 {
+    color: #f9faf8;
     background-color: #3883f6;
+    margin: 75px 100px;
+    padding: 50px 100px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.s4-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.s4-button {
+    color: #f9faf8;
+    background: #3883f6;
+    height: 24px;
+    width: 96px;
+    border-radius: 10px;
+    border-color: #f9faf8;
 }
